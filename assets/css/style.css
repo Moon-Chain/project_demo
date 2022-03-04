@@ -256,6 +256,14 @@ textarea {
   width: 100%;
 }
 
+.mobile-hide {
+  display: none;
+}
+
+.mobile_w220 {
+  width: 220px;
+}
+
 /* Filter Sellect */
 .language-filter {
   min-width: 210px;
@@ -3091,6 +3099,14 @@ Menu Css
 }
 
 @media (min-width: 768px) {
+  .mobile-hide {
+    display: block !important;
+  }
+
+  .mobile_w220 {
+    width: 100%;
+  }
+
   .banner-one__single-content {
     text-align: left;
   }
